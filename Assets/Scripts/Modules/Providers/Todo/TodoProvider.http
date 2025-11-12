@@ -1,0 +1,18 @@
+### Define variables
+@BASE_URL = https://jsonplaceholder.typicode.com/todos/
+# @TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODM5YjQ5MmE0OWI4NjFhOTk3YjdmMyIsImlhdCI6MTc1NDc2MjYxNywiZXhwIjoxNzU2MDU4NjE3fQ.T6Q9N6nE02PZERduLl7wBNYPHPg4YPeWPg6vmv3_kw4
+@Id = 1
+
+### GET All
+GET {{BASE_URL}}
+# Authorization: Bearer {{TOKEN}}
+Content-Type: application/json
+
+# {
+#   "userName": "test"
+# }
+
+### Get by Id
+Get {{BASE_URL}}{{Id}}
+# Authorization: Bearer {{TOKEN}}
+Content-Type: application/json

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e95743c552a15468728b68449d81f3, type: 3}
+  m_Name: MissionSequence
+  m_EditorClassIdentifier: Assembly-CSharp::PP3.Missions.MissionSequenceSO
+  Missions:
+  - {fileID: 11400000, guid: b5b2028b1f55af747a3dc26bda96f934, type: 2}
